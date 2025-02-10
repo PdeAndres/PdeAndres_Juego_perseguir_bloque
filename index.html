@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    ></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <div class="startGame">
+      <h1>BIENVENIDO A PERSEGUIR EL BLOQUE!</h1>
+      <div class="control">
+        <h2>Como jugar</h2>
+        <p>Haz click en 10 bloques lo más rapido posible</p>
+      </div>
+      <button class="start">JUGAR</button>
+    </div>
+    <div class="container">
+      <div class="nav">
+        <p class="score">Tiempo: <span class="scoreValue">0</span></p>
+      </div>
+      <div class="gameBoard">
+        <div class="bloque"></div>
+      </div>
+      <div class="gameOver">
+        <h1>FIN DEL JUEGO!</h1>
+        <h2>Tiempo: <span class="scoreValue">0</span></h2>
+        <button class="reset">JUGAR OTRA VEZ</button>
+      </div>
+    </div>
+  </body>
+</html>
